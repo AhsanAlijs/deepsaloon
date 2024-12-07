@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins";
+}
+
+@layer utilities {
+  .mainheading {
+    @apply lg:text-[101px] md:text-[80px] sm:text-[40px] font-medium;
+  }
+  .subheading {
+    @apply lg:text-[94px] md:text-[60px] sm:text-[30px];
+  }
+  .preheading {
+    @apply lg:text-[75px] md:text-[45px] sm:text-[25px];
+  }
+  .heading1 {
+    @apply lg:text-[50px] md:text-[30px] sm:text-[20px];
+  }
+  .heading2 {
+    @apply lg:text-[60px] md:text-[35px] sm:text-[25px];
+  }
+  .text1 {
+    @apply lg:text-[43px] md:text-[30px] sm:text-[20px];
+  }
+  .text2 {
+    @apply lg:text-[30px] md:text-[20px] sm:text-[10px];
+  }
+  .text3 {
+    @apply lg:text-[24px] md:text-[16px] sm:text-[12px];
+  }
+  .text4 {
+    @apply lg:text-[20px] md:text-[16px] sm:text-[12px];
+  }
+  .text5 {
+    @apply lg:text-[14px] md:text-[12px] sm:text-[10px];
+  }
+}
